@@ -25,29 +25,9 @@ const num4 = {
 console.log(num4);
 
 //#region array
-const persona = [
-    {
-        nombre: "Lucas",
-        edad: 17
-    },
-    {
-        nombre: "Mateo",
-        edad: 22
-    },
-    {
-        nombre: "Elias",
-        edad: 27
-    },
-];
-const mostrarnombre = function(nombres) {
-    return nombres.nombre;
-}
-const mostraredad = function(edades) {
-    return edades.edad;
-}
-const nom = "Nombres: "
-const eda = "Edades: ";
-const nombrespersonas = persona.map(mostrarnombre);
-const edadpersonas = persona.map(mostraredad);
-console.log(nom, nombrespersonas);
-console.log(eda, edadpersonas);
+nombre = "Lucas";
+apellido = "Villegas";
+edad = "17";
+array = {nombre,apellido,edad}
+array.lenght,[0];
+console.log(array);
